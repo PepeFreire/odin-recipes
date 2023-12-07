@@ -1,0 +1,43 @@
+.lista-sin-decoracion li{
+    list-style: none;
+
+}
+
+.heading {
+    background-image: url(./img/menu-semanal.jpg);
+    height: 100px;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+
+}
+.lista.recetas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.imagen {
+    
+    width: 10%;
+    
+}
+
+.pierna-cordero{
+    height: 300px;
+    width: auto;
+}
+
+.garbanzos-espinacas{
+    height: 300px;
+    width: auto;
+}
+
+.sopa-marisco{
+    height: 300px;
+    width: auto;
+}
