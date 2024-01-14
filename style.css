@@ -1,47 +1,79 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 *{
-    border: 2px solid red;
-}
-
-.lista-sin-decoracion li{
-    list-style: none;
-
+    /* border: 2px solid red; */
 }
 
 .heading {
     background-image: url(./img/menu-semanal.jpg);
     height: 100px;
-    width: auto;
+    width: 99%;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-align: end;
+}
+
+.titulo-container{
+    width: 200px;
+    display: inline-block;
+    float: left;
+}
+
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    padding: 5px;
+    font-size: 28px;
+}
+
+.clases-de-comida{
+    display: inline-block;
+    list-style: none; 
+}
+
+.tipo-comida{
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+   
 }
 
 .container {
+    display: inline-block;
+    align-self: center;
+    width: 99%;
+    margin: 5px;
+    /* border: 2px solid blue; */
+}
+
+.lista-sin-decoracion {
+    margin: 5px;
     display: flex;
+    /* border: 2px solid green; */
+    list-style: none;
     justify-content: center;
-    align-items: center;
-
+    flex-wrap: wrap;
 }
-.lista.recetas{
+
+.receta{
+    height: 200px;
+    width: 200px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-    margin: 0 auto;
-}
+    font-size: 22px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(245, 244, 240);
 
-.imagen {
-    width: 400px;
-    margin: 0 auto;
-    
-}
-
-.pierna-cordero{
-    height: 300px;
-    width: auto;
-}
-
-.garbanzos-espinacas{
-    height: 300px;
-    width: auto;
-}
-
-.sopa-marisco{
-    height: 300px;
-    width: auto;
 }
